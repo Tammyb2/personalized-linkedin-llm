@@ -1,10 +1,24 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Credentials
+.env
 
-# Virtual environments
-.venv
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data (Optional)
+# Uncomment the line below if you don't want to share your raw posts
+# data/raw_posts.json
+
+# Streamlit
+.streamlit/
+
+# OS related
+.DS_Store
+Thumbs.db
